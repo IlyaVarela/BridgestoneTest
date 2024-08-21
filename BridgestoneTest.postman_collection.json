@@ -1,0 +1,756 @@
+{
+	"info": {
+		"_postman_id": "5b89d47b-1f35-4e14-8f1a-859e3e68bee8",
+		"name": "BridgestoneTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17203492",
+		"_collection_link": "https://datanet-test.postman.co/workspace/Coopealianza~666105f4-9b78-49d3-85e6-2698164b8dc3/collection/17203492-5b89d47b-1f35-4e14-8f1a-859e3e68bee8?action=share&source=collection_link&creator=17203492"
+	},
+	"item": [
+		{
+			"name": "Departamentos",
+			"item": [
+				{
+					"name": "SeleccionarDepartamentos",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/SeleccionarDepartamentos",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"SeleccionarDepartamentos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertarDepartamento",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"NombreDepartamento\":\"Finanzas 123\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/InsertarDepartamento",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"InsertarDepartamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarDepartamento",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"IdDepartamento\":\"6\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/EliminarDepartamento",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"EliminarDepartamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarDepartamento",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdDepartamento\":\"6\",\r\n    \"NombreDepartamento\":\"Finanzas 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/ActualizarDepartamento",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"ActualizarDepartamento"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Asociados",
+			"item": [
+				{
+					"name": "SeleccionarAsociados",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/SeleccionarAsociados",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"SeleccionarAsociados"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertarAsociado",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NombreAsociado\":\"Maria Dolores 1\",\r\n    \"SalarioAsociado\":\"645500.22\",\r\n    \"DepartamentoAsociado\":\"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/InsertarAsociado",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"InsertarAsociado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarAsociado",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"IdAsociado\":\"5\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/EliminarAsociado",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"EliminarAsociado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarAsociado",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdAsociado\":\"2\",\r\n    \"NombreAsociado\":\"Jose Vargas\",\r\n    \"SalarioAsociado\":\"668000.21\",\r\n    \"DepartamentoAsociado\":\"1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/ActualizarAsociado",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"ActualizarAsociado"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Salario",
+			"item": [
+				{
+					"name": "AumentarSalarioGeneral",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"PorcentajeAumento\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/AumentarSalarioGeneral",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"AumentarSalarioGeneral"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AumentarSalarioPorDepartamento",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdDepartamento\":\"3\",\r\n    \"PorcentajeAumento\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Asociado/AumentarSalarioPorDepartamento",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Asociado",
+								"AumentarSalarioPorDepartamento"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "ActualizarCliente",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdCliente\":\"2\",\r\n    \"NombreCliente\":\"Marco Rojas\",\r\n    \"SaldoCuenta\":\"668000.21\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Cliente/ActualizarCliente",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Cliente",
+								"ActualizarCliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarCliente",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"IdCliente\":\"2\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Cliente/EliminarCliente",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Cliente",
+								"EliminarCliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertarCliente",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NombreCliente\":\"Marcos Ramirez\",\r\n    \"SaldoCuenta\":\"443500.22\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Cliente/InsertarCliente",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Cliente",
+								"InsertarCliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SeleccionarClientes",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Cliente/SeleccionarClientes",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Cliente",
+								"SeleccionarClientes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RetiroCajero",
+			"item": [
+				{
+					"name": "RealizarRetiro",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Bridgestone2024*",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "BRIDGESTONE_API",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdCliente\":\"1\",\r\n    \"MontoRetiro\":\"555\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5097/api/Cliente/RealizarRetiro",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5097",
+							"path": [
+								"api",
+								"Cliente",
+								"RealizarRetiro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
